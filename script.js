@@ -24,11 +24,3 @@ const handleChange = () => {
 inputs.forEach((input) => input.addEventListener('focus', handleFocus));
 inputs.forEach((input) => input.addEventListener('focusout', handleFocusOut));
 inputs.forEach((input) => input.addEventListener('input', handleChange));
-
-
-const playAudio = () =>  {
-    var audio = new Audio('audio.mp3');
-    audio.play()
-    console.log('ste')
-}
-button.addEventListener('click', playAudio);
